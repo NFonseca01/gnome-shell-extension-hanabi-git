@@ -1,7 +1,9 @@
-# Maintainer: David Marrero <bdface[at]proton[dot]me>
+# Maintainer: Kayque Pereira <kayquesousa02004@gmail.com>
+# Contributor: David Marrero <bdface[at]proton[dot]me>
+# Contributor: Mattia Borda <mattiagiovanni.borda@icloud.com>
 
 pkgname=gnome-shell-extension-hanabi-git
-pkgver=r271.e5d6e13
+pkgver=r271.4bd29ce
 pkgrel=1
 pkgdesc='Live Wallpaper for GNOME'
 arch=(any)
