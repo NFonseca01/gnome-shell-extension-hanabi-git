@@ -1,6 +1,6 @@
 pkgbase = gnome-shell-extension-hanabi-git
 	pkgdesc = Live Wallpaper for GNOME
-	pkgver = r271.4bd29ce
+	pkgver = r368.033dc86
 	pkgrel = 1
 	url = https://github.com/jeffshee/gnome-ext-hanabi
 	arch = any

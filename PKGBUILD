@@ -3,7 +3,7 @@
 # Contributor: Mattia Borda <mattiagiovanni.borda@icloud.com>
 
 pkgname=gnome-shell-extension-hanabi-git
-pkgver=r271.4bd29ce
+pkgver=r368.033dc86
 pkgrel=1
 pkgdesc='Live Wallpaper for GNOME'
 arch=(any)
@@ -27,7 +27,7 @@ optdepends=(
         'gstreamer-vaapi: Video acceleration for Intel/AMD users'
 )
 source=(git+$url)
-b2sums=(SKIP)
+b2sums=('SKIP')
 
 pkgver() {
 	cd gnome-ext-hanabi

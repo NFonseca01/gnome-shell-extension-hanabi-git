@@ -1,0 +1,20 @@
+--- a/src/launcher.js
++++ b/src/launcher.js
+@@ -37,5 +37,2 @@
+ export class LaunchSubprocess {
+     constructor(flags = Gio.SubprocessFlags.NONE) {
+-        if (shellVersion < 50)
+-            this._isX11 = !Meta.is_wayland_compositor();
+-        else
+-            this._isX11 = false
++        this._isX11 = !Meta.get_backend().is_wayland();
+--- a/src/windowManager.js
++++ b/src/windowManager.js
+@@ -149,5 +149,2 @@
+ export class WallpaperManager {
+     constructor() {
+-        if (shellVersion < 50)
+-            this._isX11 = !Meta.is_wayland_compositor();
+-        else
+-            this._isX11 = false
++        this._isX11 = !Meta.get_backend().is_wayland();
